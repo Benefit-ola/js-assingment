@@ -29,3 +29,12 @@ let url2 =url .trim().toLowerCase();
         } else {
             console.log("Invalid URL ");
         }
+
+//  5.(username)      
+let username = prompt("Please input your username").trim(); 
+
+if (username.length >= 5 && username.length <= 15) {
+    console.log("Valid username ");
+} else {
+    console.log("Invalid username ");
+} 
