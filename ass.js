@@ -53,7 +53,8 @@ let grade = prompt("please input your score")
             console.log("advice to retake the exam!")
         }
 // 6.(capital firstletter)
-      let school = prompt("input your school name").trim()
-       let capitalschool = school.charAt("0").toUpperCase()
-let substringschool = school.substring(1)
-console.log(capitalschool.concat(substringschool) )
+      }
+        let Name = prompt("input your school name").trim()
+       let capitalName = Name.charAt("0").toUpperCase()
+let substringName = Name.substring(1)
+console.log(capitalName.concat(substringName) )
