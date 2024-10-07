@@ -7,3 +7,25 @@ if(correctemail){
 }else{
     console.log("Invalid email ")
  }
+
+
+// // 2. (password)
+// let password1 = prompt("please input your password").trim()
+// let lowerCase = password1.charAt(0).toLowerCase() === pass.charAt(0)
+// let upperCase = password1.charAt(password1.length - 1).toUpperCase() === password1.charAt(pass.length - 1)
+// let password2 = lowerCase && upperCase && password1.includes(0)
+// if(passwor2d){
+//     console.log("Strong password")
+// }else{
+//     console.log("Weak password")
+// }
+// 3.(url)
+let url = prompt(" URL")
+let url2 =url .trim().toLowerCase();
+        if (url2.startsWith("https:")) {
+             console.log("Valid URL");
+    } else if (url2.startsWith("http:")) {
+         console.log("incorrect URL");
+        } else {
+            console.log("Invalid URL ");
+        }
