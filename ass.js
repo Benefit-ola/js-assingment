@@ -1,6 +1,6 @@
 /1.(email)
 1.
-let email = prompt("please input your email address").trim()
+let email = prompt("input emaail address").trim()
 let correctemail = email.endsWith("@gmail.com") 
 if(correctemail){
     console.log("valid email")
@@ -31,7 +31,7 @@ let url2 =url .trim().toLowerCase();
         }
 
 //  5.(username)      
-let username = prompt("Please input your username").trim(); 
+let username = prompt("input your username").trim(); 
 
 if (username.length >= 5 && username.length <= 15) {
     console.log("Valid username ");
