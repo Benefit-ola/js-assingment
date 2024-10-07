@@ -38,3 +38,17 @@ if (username.length >= 5 && username.length <= 15) {
 } else {
     console.log("Invalid username ");
 } 
+
+// 10.(exam grade)
+let grade = prompt("please input your score")
+    if(grade >= 75 && grade <= 100) {
+        console.log("excellect, gradeA");
+        }else if(grade >= 60 && grade < 75) {
+            console.log("great, gradeB")
+        }else if (grade >= 50 && grade < 60){
+            console.log("good, gradeC")
+             }else if (grade < 50) {
+                  console.log("advice to retake the exam!");
+        } else{
+            console.log("advice to retake the exam!")
+        }
