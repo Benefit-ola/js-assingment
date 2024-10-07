@@ -1,4 +1,4 @@
-/1.(email)
+// /1.(email)
 1.
 let email = prompt("input emaail address").trim()
 let correctemail = email.endsWith("@gmail.com") 
@@ -52,3 +52,8 @@ let grade = prompt("please input your score")
         } else{
             console.log("advice to retake the exam!")
         }
+// 6.(capital firstletter)
+      let school = prompt("input your school name").trim()
+       let capitalschool = school.charAt("0").toUpperCase()
+let substringschool = school.substring(1)
+console.log(capitalschool.concat(substringschool) )
